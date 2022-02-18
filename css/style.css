@@ -1,0 +1,59 @@
+/* components */
+.borda {
+  border: 1px solid green;
+}
+
+/* cores */
+.orange {
+  background-color: var(--light-orange);
+}
+
+.petroleo {
+  background-color: var(--petroleo);
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.section {
+  margin: 2rem 0 1rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-family: var(--titles);
+  color: var(--dark-white);
+}
+
+.url-box {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.2rem;
+  margin: 2rem 0;
+}
+
+.input-url {
+  border: none;
+  border-radius: 0.6rem;
+  outline: none;
+  padding: 0.5rem ;
+  width: 80vw;
+}
+
+.cta-button {
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0.6rem 1rem;
+  font-family: var(--subtitles);
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px var(--dark-white);
+}
+
+.cta-button:active {
+  transform: scale(1.05);
+}

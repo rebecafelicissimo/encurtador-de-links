@@ -1,0 +1,20 @@
+/* Variáveis */
+:root {
+  /* background */
+  --light-pink: #F5CAC3;
+  --light-orange: #F6BD60;
+  --dark-white: #F7EDE2;
+  --petroleo: #84A59D;
+  --dark-pink: #F28482;
+
+  /* font */
+  --titles: cursive; 
+  --subtitles: monospace; 
+}
+
+body {
+  background-color: var(--light-pink);
+  font-size: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
